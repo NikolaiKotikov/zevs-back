@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_block_phones",
+  "info": {
+    "name": "BlockLink",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    }
+  }
+}

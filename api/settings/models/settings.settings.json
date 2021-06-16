@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "name": "settings",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "navigation": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.block-navigation"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-phone"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-phone"
+    },
+    "copyright": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-copyright"
+    }
+  }
+}

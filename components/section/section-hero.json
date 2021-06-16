@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_section_section_heroes",
+  "info": {
+    "name": "SectionHero",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "types": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.types"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.features"
+    },
+    "caption": {
+      "type": "string"
+    }
+  }
+}

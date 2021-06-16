@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_block_navigations",
+  "info": {
+    "name": "BlockNavigation",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "model": "link"
+    }
+  }
+}

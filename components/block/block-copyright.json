@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_block_block_copyrights",
+  "info": {
+    "name": "BlockCopyright",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

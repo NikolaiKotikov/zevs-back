@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_block_types",
+  "info": {
+    "name": "types",
+    "icon": "box-open"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
