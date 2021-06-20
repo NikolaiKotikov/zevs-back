@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_section_section_catalogs",
+  "info": {
+    "name": "SectionCatalog",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "model": "link"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.catalog-items"
+    }
+  }
+}

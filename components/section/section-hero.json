@@ -18,7 +18,7 @@
       "repeatable": true,
       "component": "block.types"
     },
-    "image": {
+    "imageRight": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -37,6 +37,19 @@
     },
     "caption": {
       "type": "string"
+    },
+    "level": {
+      "type": "string"
+    },
+    "imageBottom": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

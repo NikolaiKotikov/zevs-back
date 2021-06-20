@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_block_slides",
+  "info": {
+    "name": "BlockSlide",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "BlockTable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.block-table"
+    }
+  }
+}

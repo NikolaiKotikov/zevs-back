@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contents",
   "info": {
-    "name": "content"
+    "name": "content",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -14,7 +15,8 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "section.section-hero"
+        "section.section-hero",
+        "section.section-catalog"
       ]
     }
   }

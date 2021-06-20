@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_catalog_items",
+  "info": {
+    "name": "catalog_items",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "private": false
+    },
+    "category": {
+      "model": "category"
+    }
+  }
+}

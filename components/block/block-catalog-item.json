@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_block_block_catalog_items",
+  "info": {
+    "name": "BlockCatalogItem",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.block-slide"
+    },
+    "thumbs": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": ["images"],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
