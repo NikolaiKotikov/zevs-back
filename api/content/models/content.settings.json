@@ -16,7 +16,10 @@
       "type": "dynamiczone",
       "components": [
         "section.section-hero",
-        "section.section-catalog"
+        "section.section-catalog",
+        "section.section-about",
+        "section.section-clients",
+        "section.section-feedbak"
       ]
     }
   }

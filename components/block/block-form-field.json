@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_block_block_form_fields",
+  "info": {
+    "name": "BlockFormField",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "placeholder": {
+      "type": "string"
+    },
+    "required": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

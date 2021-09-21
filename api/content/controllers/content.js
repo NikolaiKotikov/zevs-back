@@ -19,7 +19,7 @@ module.exports = {
           section.items.map(async (element) => {
             const id = element.category.id;
             const title = element.title;
-            const category = element.category;
+            const thumbs = element.category?.thumbs;
             const products = await strapi.services.product.find({
               "category.id": id,
             });
@@ -33,7 +33,7 @@ module.exports = {
                 delete product?.category;
               }
             }
-            return { title, category, products };
+            return { title, thumbs, products };
           })
         );
         section.items = newItems;

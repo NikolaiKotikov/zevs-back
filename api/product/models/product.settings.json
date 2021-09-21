@@ -18,7 +18,9 @@
     "image": {
       "model": "file",
       "via": "related",
-      "allowedTypes": ["images"],
+      "allowedTypes": [
+        "images"
+      ],
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
@@ -30,6 +32,9 @@
     },
     "category": {
       "model": "category"
+    },
+    "caption": {
+      "type": "string"
     }
   }
 }

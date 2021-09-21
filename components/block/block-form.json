@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_block_block_forms",
+  "info": {
+    "name": "BlockForm",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-form-field"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-form-field"
+    },
+    "phone": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-form-field"
+    },
+    "message": {
+      "type": "component",
+      "repeatable": false,
+      "component": "block.block-form-field"
+    },
+    "buttonTitle": {
+      "type": "string"
+    },
+    "successText": {
+      "type": "string"
+    },
+    "errorText": {
+      "type": "string"
+    }
+  }
+}
