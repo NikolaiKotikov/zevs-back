@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_abouts",
   "info": {
     "name": "sectionAbout",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -14,6 +15,9 @@
     },
     "certificateText": {
       "type": "string"
+    },
+    "link": {
+      "model": "link"
     }
   }
 }

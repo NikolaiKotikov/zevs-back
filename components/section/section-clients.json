@@ -2,7 +2,8 @@
   "collectionName": "components_section_section_clients",
   "info": {
     "name": "SectionClients",
-    "icon": "air-freshener"
+    "icon": "air-freshener",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,9 @@
       "type": "component",
       "repeatable": true,
       "component": "block.features"
+    },
+    "link": {
+      "model": "link"
     }
   }
 }
