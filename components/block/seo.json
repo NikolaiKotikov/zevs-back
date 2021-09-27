@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_block_seos",
+  "info": {
+    "name": "seo",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.meta"
+    }
+  }
+}

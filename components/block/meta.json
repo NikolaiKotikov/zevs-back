@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_block_metas",
+  "info": {
+    "name": "meta",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}
