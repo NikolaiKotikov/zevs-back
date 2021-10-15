@@ -26,6 +26,7 @@
       "pluginOptions": {}
     },
     "products": {
+      "via": "category",
       "collection": "product"
     }
   }

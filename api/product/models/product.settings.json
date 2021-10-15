@@ -31,7 +31,8 @@
       "component": "block.block-table"
     },
     "category": {
-      "model": "category"
+      "model": "category",
+      "via": "products"
     },
     "caption": {
       "type": "string"
