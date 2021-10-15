@@ -3,6 +3,7 @@
   "collectionName": "contents",
   "info": {
     "name": "content",
+    "displayName": "Содержимое сайта",
     "description": ""
   },
   "options": {

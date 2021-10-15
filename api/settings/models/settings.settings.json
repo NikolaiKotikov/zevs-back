@@ -3,6 +3,7 @@
   "collectionName": "settings",
   "info": {
     "name": "settings",
+    "displayName": "Общие настройки",
     "description": ""
   },
   "options": {

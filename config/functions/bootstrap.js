@@ -1,4 +1,5 @@
-'use strict';
+"use strict";
+const pluralize = require("pluralize");
 
 /**
  * An asynchronous bootstrap function that runs before
@@ -10,4 +11,10 @@
  * See more details here: https://strapi.io/documentation/developer-docs/latest/setup-deployment-guides/configurations.html#bootstrap
  */
 
-module.exports = () => {};
+module.exports = () => {
+  pluralize.addPluralRule("category", "категории");
+  pluralize.addPluralRule("product", "продукты");
+  pluralize.addPluralRule("link", "ссылки");
+  pluralize.addPluralRule("feedback", "обратная связь");
+  pluralize.addSingularRule("setting", "pages");
+};
